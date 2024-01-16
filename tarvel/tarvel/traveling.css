@@ -1,0 +1,321 @@
+body{
+    width: 1400px;
+}
+
+
+/* header css */
+
+.header-section{
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    
+
+}
+.nav-container{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    min-height: 20px;
+    width: 50%;
+}
+.text-container{
+    font-size: 20px;
+    font-weight: 700;
+}
+.co-text{
+    color: #FF5400;
+}
+.item-container{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-container a{
+    text-decoration: none;
+}
+.fc{
+    color: #FF5400;
+}
+
+/* banner section */
+
+
+.bannar-section{
+    background-image: url('../water.png ');
+    height: 450px;
+    width: 1100px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.bannar-section h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+.bannar-section p{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.row-layout{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+width: 50%;
+margin: 0 auto;
+}
+.where-to-go{
+    display: flex;
+    gap: 24px;
+}
+.main-btn{
+    background-color: #fff;
+    width: 154px;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: lightgray;
+}
+
+
+/* banner end */
+.select{
+    background-color: #fff;
+    width: 154px;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: lightgray;
+}
+.primary-btn{
+    background-color: #FF5400;
+    color: white;
+    width: 154px;
+    height: 35px; 
+    border: 3px solid #FF5400;
+    border-radius: 7px;
+}
+
+
+
+/* main section  */
+
+
+.body-part{
+    display: flex;
+    margin-top: 90px;
+    margin-right: 190px;
+    margin-left: 190px;
+    gap: 70px;
+}
+.second-content{
+    width: 50%;
+height: 540;
+}
+.img-section{
+    height: 550px;
+    width: 540px;
+}
+.body-part2{
+    text-align: center;
+    padding-top:  90px; 
+    gap: 24px;
+}
+.center-text h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.honeymoon{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 5px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.same{
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+.jungle{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 135px;
+    margin-right: 135px;
+    gap: 24px;
+}
+.sec6{
+    height: 286px;
+    width: 374px;
+    border-radius: 16px;
+}
+.sec7{
+    height: 276px;
+    width: 474px;
+    border-radius: 16px;
+}
+.why-choose{
+    align-items: center;
+}
+.how-choose{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.how-choose-us{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card-dad{
+    display: flex;
+     gap: 19px;
+     justify-content: center;
+}
+.card1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+    height: 284px;
+    width: 573px;
+}
+.card2{
+    height: 284px;
+    width: 573px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.card-dad2{
+    width: 573px;
+    height: 284px;
+    margin-left: 433px;
+    margin-right: 434px;
+    margin-top: 20px;
+}
+.card3{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.fourth-part{
+    display: flex;
+}
+.full{
+    display: flex;
+    gap: 23px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.form-1{
+    height: 422px;
+    width: 422px;
+    border: 2px solid #FF5400;
+    border-radius: 9px;
+    gap: 24px;
+    align-items: center;
+
+}
+.next-btn{
+    background-color: #FF5400;
+    color: white;
+    width: 350px;
+    height: 35px; 
+    border: 3px solid #FF5400;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 34px;
+
+}
+.Email{
+    height: 42px;
+    width: 350px;
+     border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 2px solid rgba(19, 19, 24, 0.05);
+    margin-left: 25px;
+    margin-top: 24px;
+
+}
+.Name{
+    height: 42px;
+    width: 350px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 3px solid rgba(19, 19, 24, 0.05);
+    margin-left: 25px;
+    margin-top: 48px;
+}
+.photo{
+ height: 422px;
+ width: 672px;
+}
+.newlet{
+    margin-left: 25px;
+
+}
+
+/* main css end */
+
+
+
+/* footer css started */
+
+footer{
+    height: 450px;
+    width: 1100px;
+    border: 2px solid blue;
+    margin-left: 150px;
+    margin-top: 70px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-sec{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.footer-sec h3 .footer-img{
+    color: #FF5400;
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer-text{
+    width: 70px;
+}
+.footer-text1{
+    text-align: center;
+}
+.social-img{
+    padding-left: 460px;
+}
+.line{
+    width: 882px;
+}
+.last-line{
+    margin-top: 110px;
+    text-align: center;
+}
+.line2{
+    width: 332px;
+}
+
+/* footer css end */
+
+
+
+/* responsive mobile */
+
+
+
+
+
+/* responsive tablet */
