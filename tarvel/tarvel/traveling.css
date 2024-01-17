@@ -1,5 +1,7 @@
 body{
     width: 1400px;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 
@@ -7,7 +9,6 @@ body{
 
 .header-section{
     max-width: 1200px;
-    
     margin: 0 auto;
     display: flex;
     text-align: center;
@@ -67,8 +68,12 @@ body{
 .row-layout{
     border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
-width: 50%;
+width: 60%;
 margin: 0 auto;
+/* height: 10%; */
+/* border: 4px solid salmon; */
+/* display: inline; */
+/* margin-left: 70px; */
 }
 .where-to-go{
     display: flex;
@@ -85,6 +90,9 @@ margin: 0 auto;
 
 
 /* banner end */
+
+
+
 .select{
     background-color: #fff;
     width: 154px;
@@ -100,7 +108,11 @@ margin: 0 auto;
     height: 35px; 
     border: 3px solid #FF5400;
     border-radius: 7px;
+    /* margin-top: 60px; */
 }
+
+
+/* header end */
 
 
 
@@ -179,6 +191,7 @@ height: 540;
     display: flex;
      gap: 19px;
      justify-content: center;
+     margin: 20px;
 }
 .card1{
     border-radius: 16px;
@@ -222,6 +235,7 @@ background: rgba(233, 68, 68, 0.05);
     border-radius: 9px;
     gap: 24px;
     align-items: center;
+    margin-top: 50px;
 
 }
 .next-btn{
@@ -272,10 +286,13 @@ background: rgba(233, 68, 68, 0.05);
 footer{
     height: 450px;
     width: 1100px;
-    border: 2px solid blue;
+    border: 2px solid gray;
     margin-left: 150px;
     margin-top: 70px;
     background: rgba(19, 19, 24, 0.05);
+}
+.socialed{
+    margin-top: 100px;
 }
 .footer-sec{
     display: flex;
@@ -296,6 +313,7 @@ footer{
 }
 .social-img{
     padding-left: 460px;
+    gap: 30px;
 }
 .line{
     width: 882px;
@@ -308,14 +326,44 @@ footer{
     width: 332px;
 }
 
-/* footer css end */
+.hide{
+    display: hide;
+}
+       /* footer css end */
 
 
 
-/* responsive mobile */
+       /* responsive mobile */
+
+
+@media screen and (max-width: 576px) {
+    .header-section, .nav-container, .item-container, .where-to-go, .body-part, .honeymoon, .jungle, .card-dad, .full, .footer-sec{
+        flex-direction: column;
+        /* height: auto; */
+        width: 570px;
+        margin-left: 15px;
+        margin-right: 15px;
+        align-items: center;
+        border: 5px;
+        gap: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+
+        /* height: 100px; */
+        /* width: 100px; */
+    }
+    .header-section{
+        /* margin-left: 20px; */
+        /* margin-right: 20px; */
+    }
+    }
 
 
 
 
+      /* responsive mobile end */
 
-/* responsive tablet */
+
+
+
+      /* responsive tab */
